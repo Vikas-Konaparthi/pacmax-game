@@ -11,3 +11,5 @@ Who can forget the retro addictive gameplay of this pop culture icon? Remember a
 Come join the journey of Pac-Man with as maximum as you can with Pac-Max.
 
 PAC-MAX IS FOR EVERYONE!
+
+https://play.google.com/store/apps/details?id=com.vikaskonaparthi.game
