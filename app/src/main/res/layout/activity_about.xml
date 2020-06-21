@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".SettingsActivity">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HOW TO PLAY AND ABOUT"
+                tools:text="How to Play"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="141dp"
+                android:layout_height="193dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Version 1.1.1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:text="Press and hold to move PacMan up and release to make PacMan move down." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:text="Strawberry = 8 and Cherry = 15" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="If score increases more than 500 then the level of hardness increases with the arrival of new ghost." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="The environment of the gameplay changes for every 30 seconds." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Score greater than 1000 to unlock the Oswald Pacman and new gameplay." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Enjoy the game" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:text="Developed by VIKAS"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:text="PacMax"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:text="Chrome Man Coming Soon" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

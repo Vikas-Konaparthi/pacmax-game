@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "454825932046",
+    "firebase_url": "https://pacmax-8fbaa.firebaseio.com",
+    "project_id": "pacmax-8fbaa",
+    "storage_bucket": "pacmax-8fbaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454825932046:android:f1a0ec6799298a3df5535f",
+        "android_client_info": {
+          "package_name": "com.vikaskonaparthi.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454825932046-7bm3dad9b62cjlap9bgsgehhb7a757ko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikaskonaparthi.game",
+            "certificate_hash": "83a3d0e32d8038f9b3aa18cb6691e85edd217a6e"
+          }
+        },
+        {
+          "client_id": "454825932046-jd8egiglqphn5ga9vrkimbdtke8q4pvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzLvh8OqkU_gYF4-wEyqLhkwHL4kpa434"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454825932046-jd8egiglqphn5ga9vrkimbdtke8q4pvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

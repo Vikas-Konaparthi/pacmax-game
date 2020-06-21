@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result"
+    android:gravity="center|bottom"
+    android:background="@drawable/b3"
+    android:weightSum="12">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score : 300"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:onClick="tryAgain"
+        android:background="@drawable/custom_retry"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:onClick="watchAd"
+        android:background="@drawable/custom_continue"
+        android:layout_marginBottom="100dp"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6862851420275633/6415148507" />
+</LinearLayout>
