@@ -15,6 +15,13 @@ PAC-MAX IS FOR EVERYONE!
 https://play.google.com/store/apps/details?id=com.vikaskonaparthi.game
 
 
+
+
+
+# License
+
+
+
 Copyright [2020] [Vikas Konaparthi]
 
 Licensed under the Apache License, Version 2.0 (the "License");
